@@ -15,10 +15,6 @@ An experimental variation of VITS with Microsoft's [Differential Transformer](ht
 Each model was trained with LJ Speech dataset for 20000 steps.
 
 
-https://github.com/user-attachments/assets/2b95f269-9f11-4e52-b6ae-a199d9e368ae
-
-Demonstration of all 50 test samples by each model.
-
 https://github.com/user-attachments/assets/11b9490d-81d4-4531-becf-dcc1992a5ff0
 
 Comparison of `normal` and `dtf`.
