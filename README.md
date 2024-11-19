@@ -15,6 +15,10 @@ An experimental variation of VITS with Microsoft's [Differential Transformer](ht
 Each model was trained with LJ Speech dataset for 20000 steps.
 
 
+https://github.com/user-attachments/assets/99d3fc99-78e7-4b0b-b15e-4de8edf4bc6a
+
+Demonstration of all 50 test samples by each model.
+
 https://github.com/user-attachments/assets/11b9490d-81d4-4531-becf-dcc1992a5ff0
 
 Comparison of `normal` and `dtf`.
@@ -24,6 +28,6 @@ Comparison of `normal` and `dtf`.
 For each sentence in [test script](./testscript.txt), 10 wav files were generated and tested through NISQA(v2.0) model. 
 | Model |	MOS | Noisiness | Discontinuity | Coloration | Loudness |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| normal |	4.32 ± 0.37 |	3.87 ± 0.41 |	4.53 ± 0.28 |	4.31 ± 0.22 |	4.51 ± 0.18 |
-| dtf |	4.24 ± 0.37 |	3.79 ± 0.42 |	4.51 ± 0.30 |	4.28 ± 0.24 |	4.49 ± 0.20 |
-| dtf_v2 |	4.24 ± 0.37 |	3.86 ± 0.44 |	4.53 ± 0.27 |	4.26 ± 0.23 |	4.47 ± 0.20 |
+| `normal` |	4.32 ± 0.37 |	3.87 ± 0.41 |	4.53 ± 0.28 |	4.31 ± 0.22 |	4.51 ± 0.18 |
+| `dtf` |	4.24 ± 0.37 |	3.79 ± 0.42 |	4.51 ± 0.30 |	4.28 ± 0.24 |	4.49 ± 0.20 |
+| `dtf_v2` |	4.24 ± 0.37 |	3.86 ± 0.44 |	4.53 ± 0.27 |	4.26 ± 0.23 |	4.47 ± 0.20 |
