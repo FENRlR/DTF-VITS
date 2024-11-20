@@ -14,7 +14,7 @@ An experimental variation of VITS with Microsoft's [Differential Transformer](ht
 
 Each model was trained with LJ Speech dataset for 20000 steps.
 
-
+## Output demonstrations
 https://github.com/user-attachments/assets/99d3fc99-78e7-4b0b-b15e-4de8edf4bc6a
 
 Demonstration of all 50 test samples by each model.
@@ -23,6 +23,9 @@ https://github.com/user-attachments/assets/11b9490d-81d4-4531-becf-dcc1992a5ff0
 
 Comparison of `normal` and `dtf`.
 
+https://github.com/user-attachments/assets/95648cf1-027c-4437-b2ed-6fcbc57ed49c
+
+Comparison for the text **"These principles of homology are essential to a correct interpretation of the facts of morphology."** (LJ027-0052.wav from validation dataset defined in the original VITS repo).
 
 ## Test results using [NISQA](https://github.com/gabrielmittag/NISQA)
 For each sentence in [test script](./testscript.txt), 10 wav files were generated and tested through NISQA(v2.0) model. 
