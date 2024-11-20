@@ -25,7 +25,7 @@ Comparison of `normal` and `dtf`.
 
 https://github.com/user-attachments/assets/95648cf1-027c-4437-b2ed-6fcbc57ed49c
 
-Comparison for the text **"These principles of homology are essential to a correct interpretation of the facts of morphology."** (LJ027-0052.wav from validation dataset defined in the original VITS repo).
+Comparison for the text **"These principles of homology are essential to a correct interpretation of the facts of morphology."** (LJ027-0052.wav from validation dataset defined in the original VITS repo). Demonstrated spectrograms can be found [here](resources/melcompf.png).
 
 ## Test results using [NISQA](https://github.com/gabrielmittag/NISQA)
 For each sentence in [test script](./testscript.txt), 10 wav files were generated and tested through NISQA(v2.0) model. 
